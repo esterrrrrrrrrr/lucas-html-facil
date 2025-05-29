@@ -1,0 +1,250 @@
+body{
+    margin: 0;
+    font-family: 'poppins';
+    background-color: #fff;
+    color: #000;
+
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 50px 0px 50px;
+}
+header #logo{
+    font-family: 'Montserrat';
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+header #pages{
+    font-family: 'Poppins';
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+header #icons{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+
+}
+.inicio{
+    height: 100vh;
+    background-image: url(/easy/src/assets/styles/images/scandinavian-interior-mockup-wall-decal-background\ 1.svg) ;
+    background-size: cover;
+    background-repeat:no-repeat ;
+    background-position: center;
+
+}
+.inicio div{
+    position: absolute;
+    right: 45px;
+    bottom: 0px;
+    display: flex;
+    justify-content:left;
+    align-items:start;
+    flex-direction: column;
+    background-color: #fff3e3;
+    width: 533px;
+    height: 360px;
+    font-family: 'poppins';
+    text-align: left;
+    padding-top:30px ;
+    padding-left:40px ;
+}
+.inicio h1{
+    color: #b88e2f;
+    font-size: 50px;
+    line-height: 60px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.inicio button{
+    background-color: #b88e2f;
+    color: #fff;
+    border: none;
+    width: 200px;
+    height: 60px;
+    margin-top: 15px;
+}
+.browse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.browse h1{
+    margin-bottom: 0px;
+    margin-top: 45px;
+}
+.browse p{
+    margin-top: 0px;
+    margin-bottom: 45px;
+}
+.browse .img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15px;
+}
+.browse .img div{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.products .grid{
+    display: grid;
+    grid-template-rows: 1fr 1fr; /* Duas linhas com alturas iguais (1fr representa uma fração igual do espaço) */
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* Quatro colunas com larguras iguais (1fr representa uma fração igual do espaço) */
+    justify-content: center;
+}
+.products #h1{
+    display: flex;
+    justify-content: center;
+
+    
+}
+.products .product{
+    background-color: #f4f5f7;
+    width: 285px;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    white-space: nowrap;
+}
+.products .product h1{
+    margin-left: 20px;
+    font-size: 24px;
+}
+.products .product p{
+    color: #868686;
+    margin-left: 20px;
+    font-size: 16px;
+}
+.products .product #preco{
+    display: flex;
+    align-items: center;
+}
+.products .product #preco h1{
+    font-size: 20px;
+}
+.products .product #preco p{
+    color: #b0b0b0;
+    margin-left: 10px;
+    text-decoration: line-through;
+}
+.products button{
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    width: 245px;
+    height: 48px;
+    background-color: #fff;
+    color: #b88e2f;
+    border: solid 1.5px #b88e2f;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+.inspiration{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fcf8f3;
+    padding: 50px 90px;
+    padding-right: 0px;
+}
+.inspiration img{
+    max-width: 70%;
+}
+.inspiration div{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+.inspiration h1{
+    font-size: 31px;
+    margin: 0px;
+}
+.inspiration p{
+    font-size: 12px;
+    margin: 0px;
+}
+.inspiration button{
+    margin-top: 15px;
+    width: 176px;
+    height: 48px;
+    border: none;
+    color: #fff;
+    background-color: #b88e2f;
+}
+.furniture{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+.furniture p{
+    font-size: 20px;
+    margin-top: 70px;
+    margin-bottom: 0px;
+}
+.furniture h1{
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.furniture img{
+    width: 100%;
+    height: auto;
+    margin-top: -40px;
+}
+.footer footer{
+    border-top: solid 1.5px #d9d9d9 ;
+    padding: 40px 100px 20px 100px;
+    white-space: nowrap;
+}
+.footer .footer1{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    align-items: self-start;
+}
+.footer .footer1 #logo{
+    font-size: 24px;
+}
+.footer .footer1 div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 14px;
+}
+.footer .footer1 .claro{
+    color: #9f9f9f;
+}
+.footer .footer1 #email{
+    display: flex;
+    flex-direction: row;
+}
+.footer .footer1 #enter {
+    padding-right: 20px;
+    font-size: 12px;
+}
+.footer .footer1 #email p{
+    border-bottom: solid 1.5px #000;
+
+}
+.footer .footer2{
+    border-top: solid 1.5px #d9d9d9;
+    padding-top: 20px;
+    font-size: 14px;
+}
